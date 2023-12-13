@@ -234,13 +234,6 @@ WHERE customer_id NOT IN (SELECT DISTINCT customer_id FROM orders);
 
  --17. Subquery to Calculate the Percentage of Total Revenue for a Product.
 
-SELECT product_id,name,price,
-  (price * 100 / (SELECT SUM(total_price) FROM orders)) AS revenue_percentage
-FROM products;
-
---OR
-
-
 SELECT p.product_id, p.name AS product_name,
     (p.price/sum(item_amount)) * 100 AS percentage_of_total_revenue FROM products p
 INNER JOIN 

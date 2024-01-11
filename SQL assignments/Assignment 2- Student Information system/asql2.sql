@@ -1,4 +1,4 @@
---VASANTH_SQL_Assigmnet				Student Information System (SIS)
+			Student Information System (SIS)
 
 --TASK 1
 
@@ -131,7 +131,7 @@ select * from Payments;
 
 /*1. Write an SQL query to insert a new student into the "Students" table with the following details:
 a. First Name: John
-© Hexaware Technologies Limited. All rights www.hexaware.com
+Â© Hexaware Technologies Limited. All rights www.hexaware.com
 b. Last Name: Doe
 c. Date of Birth: 1995-08-15
 d. Email: john.doe@example.com
